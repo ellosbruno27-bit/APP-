@@ -1,0 +1,44 @@
+[
+    {
+        "ref_id": "bank1",
+        "nome": "Caixa Econômica Federal",
+        "cor": "#0066CC",
+        "ativo": true,
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "bank2",
+        "nome": "Bradesco",
+        "cor": "#CC2229",
+        "ativo": true,
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "bank3",
+        "nome": "Itaú Unibanco",
+        "cor": "#FF6600",
+        "ativo": true,
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "bank4",
+        "nome": "Santander",
+        "cor": "#EE1D23",
+        "ativo": true,
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "bank5",
+        "nome": "Banco do Brasil",
+        "cor": "#FFCC00",
+        "ativo": true,
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "bank6",
+        "nome": "Banco Inter",
+        "cor": "#00A651",
+        "ativo": true,
+        "created_at": "2026-03-20 10:00:00"
+    }
+]

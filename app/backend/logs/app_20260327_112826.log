@@ -1,0 +1,73 @@
+2026-03-27 11:28:26,883 - main - INFO - === Logging system initialized ===
+2026-03-27 11:28:26,883 - main - INFO - Log file: logs/app_20260327_112826.log
+2026-03-27 11:28:26,883 - main - INFO - Log level: INFO
+2026-03-27 11:28:26,883 - main - INFO - Timestamp: 20260327_112826
+2026-03-27 11:28:27,268 - main - INFO - Included router: routers.afiliados.router
+2026-03-27 11:28:28,056 - main - INFO - Included router: routers.aihub.router
+2026-03-27 11:28:28,075 - main - INFO - Included router: routers.auth.router
+2026-03-27 11:28:28,220 - main - INFO - Included router: routers.bancos.router
+2026-03-27 11:28:28,361 - main - INFO - Included router: routers.categorias_afiliados.router
+2026-03-27 11:28:28,626 - main - INFO - Included router: routers.corretores.router
+2026-03-27 11:28:28,630 - main - INFO - Included router: routers.health.router
+2026-03-27 11:28:28,744 - main - INFO - Included router: routers.landing_pages.router
+2026-03-27 11:28:28,900 - main - INFO - Included router: routers.leads.router
+2026-03-27 11:28:29,137 - main - INFO - Included router: routers.produtos.router
+2026-03-27 11:28:29,157 - main - INFO - Included router: routers.settings.router
+2026-03-27 11:28:29,192 - main - INFO - Included router: routers.storage.router
+2026-03-27 11:28:29,201 - main - INFO - Included router: routers.user.router
+2026-03-27 11:28:29,308 - main - INFO - Included router: routers.webhooks.router
+2026-03-27 11:28:29,309 - main - INFO - === Application startup initiated ===
+2026-03-27 11:28:29,309 - services.database - INFO - Ignore creating tables
+2026-03-27 11:28:29,309 - services.mock_data - INFO - Ignore initialize data
+2026-03-27 11:28:29,310 - services.auth - INFO - Ignore initialize admin
+2026-03-27 11:28:29,310 - main - INFO - === Application startup completed successfully ===
+2026-03-27 11:32:51,930 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 11:32:51,931 - core.database - WARNING - Database session maker not available, attempting lazy initialization...
+2026-03-27 11:32:51,931 - core.database - WARNING - Database not initialized, attempting lazy initialization...
+2026-03-27 11:32:51,931 - core.database - INFO - Starting database initialization...
+2026-03-27 11:32:51,931 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-03-27 11:32:51,931 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-03-27 11:32:51,932 - core.database - INFO - Creating async database engine...
+2026-03-27 11:32:51,932 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-03-27 11:32:52,088 - core.database - INFO - Database engine created successfully
+2026-03-27 11:32:52,089 - core.database - INFO - Creating async session maker...
+2026-03-27 11:32:52,090 - core.database - INFO - Async session maker created successfully
+2026-03-27 11:32:52,090 - core.database - INFO - Database connection initialized successfully
+2026-03-27 11:32:52,091 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-03-27 11:32:52,091 - core.database - INFO - 🔧 Starting table creation...
+2026-03-27 11:32:52,103 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 11:32:52,103 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0005s
+2026-03-27 11:32:52,104 - routers.landing_pages - DEBUG - Querying landing_pagess: query={}, sort=-created_at, skip=0, limit=100, fields=None
+2026-03-27 11:32:52,113 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 11:32:52,114 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0005s
+2026-03-27 11:32:52,114 - routers.corretores - DEBUG - Querying corretoress: query={}, sort=-created_at, skip=0, limit=100, fields=None
+2026-03-27 11:32:52,119 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 11:32:52,120 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0009s
+2026-03-27 11:32:52,120 - routers.bancos - DEBUG - Querying bancoss: query={}, sort=nome, skip=0, limit=100, fields=None
+2026-03-27 11:32:52,127 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 11:32:52,128 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0009s
+2026-03-27 11:32:52,129 - routers.produtos - DEBUG - Querying produtoss: query={}, sort=-created_at, skip=0, limit=100, fields=None
+2026-03-27 11:32:52,135 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 11:32:52,178 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0428s
+2026-03-27 11:32:52,179 - routers.categorias_afiliados - DEBUG - Querying categorias_afiliadoss: query={}, sort=nome, skip=0, limit=100, fields=None
+2026-03-27 11:32:54,061 - routers.produtos - DEBUG - Found 6 produtoss
+2026-03-27 11:32:54,062 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.9351s
+2026-03-27 11:32:54,066 - routers.bancos - DEBUG - Found 6 bancoss
+2026-03-27 11:32:54,067 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.9482s
+2026-03-27 11:32:54,068 - routers.corretores - DEBUG - Found 4 corretoress
+2026-03-27 11:32:54,069 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.9551s
+2026-03-27 11:32:54,076 - routers.categorias_afiliados - DEBUG - Found 8 categorias_afiliadoss
+2026-03-27 11:32:54,078 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.9423s
+2026-03-27 11:32:54,130 - routers.landing_pages - DEBUG - Found 10 landing_pagess
+2026-03-27 11:32:54,131 - core.database - DEBUG - [DB_OP] Database session cleanup after 2.0285s
+2026-03-27 11:32:54,492 - core.database - INFO - Tables initialized successfully
+2026-03-27 11:32:54,492 - core.database - DEBUG - [DB_OP] Create tables completed in 2.4018s
+2026-03-27 11:32:54,559 - core.database - INFO - Lazy database initialization completed successfully
+2026-03-27 11:32:54,560 - core.database - DEBUG - [DB_OP] Database session created successfully in 2.6295s
+2026-03-27 11:32:54,560 - routers.leads - DEBUG - Querying leadss: query={}, sort=-created_at, skip=0, limit=500, fields=None
+2026-03-27 11:32:55,170 - routers.leads - DEBUG - Found 10 leadss
+2026-03-27 11:32:55,171 - core.database - DEBUG - [DB_OP] Database session cleanup after 3.2410s
+2026-03-27 11:43:40,651 - services.database - DEBUG - [DB_OP] Starting database close
+2026-03-27 11:43:40,652 - core.database - INFO - Database connection closed and engine disposed
+2026-03-27 11:43:40,653 - services.database - INFO - Database connections closed
+2026-03-27 11:43:40,653 - services.database - DEBUG - [DB_OP] Database close completed in 0.0017s

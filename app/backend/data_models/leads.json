@@ -1,0 +1,87 @@
+{
+    "title": "leads",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "nome": {
+            "type": "string",
+            "description": "Lead name"
+        },
+        "telefone": {
+            "type": "string",
+            "description": "Phone number"
+        },
+        "email": {
+            "type": "string",
+            "description": "Email address"
+        },
+        "cpf_cnpj": {
+            "type": "string",
+            "description": "CPF or CNPJ document"
+        },
+        "valor_pretendido": {
+            "type": "number",
+            "description": "Desired loan amount"
+        },
+        "servico": {
+            "type": "string",
+            "description": "Service type"
+        },
+        "status": {
+            "type": "string",
+            "description": "Lead status: novo, em_contato, simulacao_enviada, conversao"
+        },
+        "prioridade": {
+            "type": "string",
+            "description": "Priority: alto, medio, baixo"
+        },
+        "landing_page_id": {
+            "type": "string",
+            "description": "Landing page reference ID"
+        },
+        "origem": {
+            "type": "string",
+            "description": "Lead origin: google_ads, facebook_ads, rd_station, organico"
+        },
+        "score_estimado": {
+            "type": "integer",
+            "description": "Estimated credit score"
+        },
+        "relacao_parcela_renda": {
+            "type": "number",
+            "description": "Installment to income ratio"
+        },
+        "corretor_id": {
+            "type": "string",
+            "description": "Assigned broker reference ID"
+        },
+        "historico": {
+            "type": "string",
+            "description": "JSON stringified history array"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        },
+        "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Last interaction timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "nome",
+        "telefone",
+        "email",
+        "servico",
+        "status",
+        "prioridade",
+        "landing_page_id",
+        "origem"
+    ]
+}

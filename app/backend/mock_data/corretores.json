@@ -1,0 +1,46 @@
+[
+    {
+        "ref_id": "c1",
+        "nome": "Pedro Almeida",
+        "telefone": "(11) 99999-1111",
+        "email": "pedro@centralbankmaximo.com",
+        "ativo": true,
+        "leads_atribuidos": 45,
+        "landing_pages_json": "[\"lp1\", \"lp2\"]",
+        "codigo_acesso": null,
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "c2",
+        "nome": "Juliana Ferreira",
+        "telefone": "(11) 99999-2222",
+        "email": "juliana@centralbankmaximo.com",
+        "ativo": true,
+        "leads_atribuidos": 42,
+        "landing_pages_json": "[\"lp1\", \"lp3\"]",
+        "codigo_acesso": null,
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "c3",
+        "nome": "Rafael Mendes",
+        "telefone": "(21) 99999-3333",
+        "email": "rafael@centralbankmaximo.com",
+        "ativo": true,
+        "leads_atribuidos": 38,
+        "landing_pages_json": "[\"lp2\", \"lp5\"]",
+        "codigo_acesso": null,
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "c4",
+        "nome": "Camila Rocha",
+        "telefone": "(31) 99999-4444",
+        "email": "camila@centralbankmaximo.com",
+        "ativo": false,
+        "leads_atribuidos": 20,
+        "landing_pages_json": "[\"lp4\"]",
+        "codigo_acesso": null,
+        "created_at": "2026-03-20 10:00:00"
+    }
+]

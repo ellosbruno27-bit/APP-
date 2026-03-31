@@ -1,0 +1,26 @@
+2026-03-27 13:55:43,408 - main - INFO - === Logging system initialized ===
+2026-03-27 13:55:43,409 - main - INFO - Log file: logs/app_20260327_135543.log
+2026-03-27 13:55:43,409 - main - INFO - Log level: INFO
+2026-03-27 13:55:43,409 - main - INFO - Timestamp: 20260327_135543
+2026-03-27 13:55:43,502 - main - INFO - Included router: routers.afiliados.router
+2026-03-27 13:55:44,175 - main - INFO - Included router: routers.aihub.router
+2026-03-27 13:55:44,191 - main - INFO - Included router: routers.auth.router
+2026-03-27 13:55:44,235 - main - INFO - Included router: routers.bancos.router
+2026-03-27 13:55:44,278 - main - INFO - Included router: routers.categorias_afiliados.router
+2026-03-27 13:55:44,401 - main - INFO - Included router: routers.corretores.router
+2026-03-27 13:55:44,416 - main - INFO - Included router: routers.health.router
+2026-03-27 13:55:44,466 - main - INFO - Included router: routers.landing_pages.router
+2026-03-27 13:55:44,523 - main - INFO - Included router: routers.leads.router
+2026-03-27 13:55:44,578 - main - INFO - Included router: routers.produtos.router
+2026-03-27 13:55:44,602 - main - INFO - Included router: routers.settings.router
+2026-03-27 13:55:44,663 - main - INFO - Included router: routers.storage.router
+2026-03-27 13:55:44,679 - main - INFO - Included router: routers.user.router
+2026-03-27 13:55:44,704 - main - INFO - Included router: routers.webhooks.router
+2026-03-27 13:55:44,706 - main - INFO - === Application startup initiated ===
+2026-03-27 13:55:44,707 - services.database - INFO - Ignore creating tables
+2026-03-27 13:55:44,707 - services.mock_data - INFO - Ignore initialize data
+2026-03-27 13:55:44,707 - services.auth - INFO - Ignore initialize admin
+2026-03-27 13:55:44,707 - main - INFO - === Application startup completed successfully ===
+2026-03-27 13:56:00,381 - services.database - DEBUG - [DB_OP] Starting database close
+2026-03-27 13:56:00,385 - services.database - INFO - Database connections closed
+2026-03-27 13:56:00,385 - services.database - DEBUG - [DB_OP] Database close completed in 0.0040s

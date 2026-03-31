@@ -1,0 +1,180 @@
+2026-03-27 15:25:17,608 - main - INFO - === Logging system initialized ===
+2026-03-27 15:25:17,608 - main - INFO - Log file: logs/app_20260327_152517.log
+2026-03-27 15:25:17,609 - main - INFO - Log level: INFO
+2026-03-27 15:25:17,609 - main - INFO - Timestamp: 20260327_152517
+2026-03-27 15:25:18,252 - main - INFO - Included router: routers.aihub.router
+2026-03-27 15:25:18,269 - main - INFO - Included router: routers.auth.router
+2026-03-27 15:25:18,270 - main - INFO - Included router: routers.health.router
+2026-03-27 15:25:18,310 - main - INFO - Included router: routers.notification_history.router
+2026-03-27 15:25:18,331 - main - INFO - Included router: routers.settings.router
+2026-03-27 15:25:18,364 - main - INFO - Included router: routers.storage.router
+2026-03-27 15:25:18,371 - main - INFO - Included router: routers.user.router
+2026-03-27 15:25:18,372 - main - INFO - === Application startup initiated ===
+2026-03-27 15:25:18,372 - services.database - INFO - Ignore creating tables
+2026-03-27 15:25:18,372 - services.mock_data - INFO - Ignore initialize data
+2026-03-27 15:25:18,372 - services.auth - INFO - Ignore initialize admin
+2026-03-27 15:25:18,372 - main - INFO - === Application startup completed successfully ===
+2026-03-27 15:25:25,725 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:25:25,725 - core.database - WARNING - Database session maker not available, attempting lazy initialization...
+2026-03-27 15:25:25,725 - core.database - WARNING - Database not initialized, attempting lazy initialization...
+2026-03-27 15:25:25,726 - core.database - INFO - Starting database initialization...
+2026-03-27 15:25:25,726 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-03-27 15:25:25,726 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-03-27 15:25:25,727 - core.database - INFO - Creating async database engine...
+2026-03-27 15:25:25,727 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-03-27 15:25:25,861 - core.database - INFO - Database engine created successfully
+2026-03-27 15:25:25,862 - core.database - INFO - Creating async session maker...
+2026-03-27 15:25:25,863 - core.database - INFO - Async session maker created successfully
+2026-03-27 15:25:25,863 - core.database - INFO - Database connection initialized successfully
+2026-03-27 15:25:25,863 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-03-27 15:25:25,863 - core.database - INFO - 🔧 Starting table creation...
+2026-03-27 15:25:25,868 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:25:25,869 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-27 15:25:25,869 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Fernanda Lima — último contato há 56h (Rafael Mendes)' lead_id='lead2' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 25, 25, 681000, tzinfo=TzInfo(UTC))
+2026-03-27 15:25:25,874 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:25:25,875 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0006s
+2026-03-27 15:25:25,875 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Isabela Rodrigues — último contato há 58h (Rafael Mendes)' lead_id='lead8' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 25, 25, 682000, tzinfo=TzInfo(UTC))
+2026-03-27 15:25:25,878 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:25:25,879 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-27 15:25:25,880 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='Diego Martins — R$\xa025.000,00 via Empréstimo Pessoal MG' lead_id='lead7' priority='baixa' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 27, 22, 25, 25, 682000, tzinfo=TzInfo(UTC))
+2026-03-27 15:25:25,883 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:25:25,884 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-27 15:25:25,884 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='Roberto Nascimento — R$\xa0150.000,00 via Crédito Consignado SP' lead_id='lead1' priority='alta' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 27, 22, 25, 25, 681000, tzinfo=TzInfo(UTC))
+2026-03-27 15:25:25,886 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:25:25,886 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-27 15:25:25,887 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Marcos Pereira — último contato há 58h (Juliana Ferreira)' lead_id='lead3' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 25, 25, 682000, tzinfo=TzInfo(UTC))
+2026-03-27 15:25:25,892 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:25:25,893 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-27 15:25:25,893 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Patricia Gomes — último contato há 57h (Juliana Ferreira)' lead_id='lead6' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 25, 25, 681000, tzinfo=TzInfo(UTC))
+2026-03-27 15:25:25,895 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:25:25,895 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-27 15:25:25,896 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Vanessa Cruz — último contato há 57h (Pedro Almeida)' lead_id='lead10' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 25, 25, 681000, tzinfo=TzInfo(UTC))
+2026-03-27 15:25:27,284 - core.database - INFO - Tables initialized successfully
+2026-03-27 15:25:27,284 - core.database - DEBUG - [DB_OP] Create tables completed in 1.4212s
+2026-03-27 15:25:27,344 - core.database - INFO - Lazy database initialization completed successfully
+2026-03-27 15:25:27,344 - core.database - DEBUG - [DB_OP] Database session created successfully in 1.6195s
+2026-03-27 15:25:27,345 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='André Souza — R$\xa0200.000,00 via Financiamento Imobiliário RJ' lead_id='lead5' priority='alta' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 27, 22, 25, 25, 680000, tzinfo=TzInfo(UTC))
+2026-03-27 15:25:27,640 - services.notification_history - INFO - Created notification_history with id: 89
+2026-03-27 15:25:27,640 - routers.notification_history - INFO - Notification_history created successfully with id: 89
+2026-03-27 15:25:27,641 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.7544s
+2026-03-27 15:25:27,642 - services.notification_history - INFO - Created notification_history with id: 91
+2026-03-27 15:25:27,642 - routers.notification_history - INFO - Notification_history created successfully with id: 91
+2026-03-27 15:25:27,643 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.7742s
+2026-03-27 15:25:27,644 - services.notification_history - INFO - Created notification_history with id: 90
+2026-03-27 15:25:27,644 - routers.notification_history - INFO - Notification_history created successfully with id: 90
+2026-03-27 15:25:27,644 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.7609s
+2026-03-27 15:25:27,645 - services.notification_history - INFO - Created notification_history with id: 92
+2026-03-27 15:25:27,645 - routers.notification_history - INFO - Notification_history created successfully with id: 92
+2026-03-27 15:25:27,646 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.7506s
+2026-03-27 15:25:27,646 - services.notification_history - INFO - Created notification_history with id: 93
+2026-03-27 15:25:27,646 - routers.notification_history - INFO - Notification_history created successfully with id: 93
+2026-03-27 15:25:27,647 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.7688s
+2026-03-27 15:25:27,649 - services.notification_history - INFO - Created notification_history with id: 94
+2026-03-27 15:25:27,650 - routers.notification_history - INFO - Notification_history created successfully with id: 94
+2026-03-27 15:25:27,650 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.7580s
+2026-03-27 15:25:27,651 - services.notification_history - INFO - Created notification_history with id: 95
+2026-03-27 15:25:27,651 - routers.notification_history - INFO - Notification_history created successfully with id: 95
+2026-03-27 15:25:27,652 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.7774s
+2026-03-27 15:25:28,119 - services.notification_history - INFO - Created notification_history with id: 96
+2026-03-27 15:25:28,119 - routers.notification_history - INFO - Notification_history created successfully with id: 96
+2026-03-27 15:25:28,119 - core.database - DEBUG - [DB_OP] Database session cleanup after 2.3945s
+2026-03-27 15:27:59,591 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:27:59,591 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0005s
+2026-03-27 15:27:59,591 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='André Souza — R$\xa0200.000,00 via Financiamento Imobiliário RJ' lead_id='lead5' priority='alta' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 27, 22, 27, 59, 585000, tzinfo=TzInfo(UTC))
+2026-03-27 15:27:59,623 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:27:59,623 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-27 15:27:59,624 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Vanessa Cruz — último contato há 57h (Pedro Almeida)' lead_id='lead10' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 27, 59, 586000, tzinfo=TzInfo(UTC))
+2026-03-27 15:27:59,625 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:27:59,625 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-27 15:27:59,625 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Patricia Gomes — último contato há 57h (Juliana Ferreira)' lead_id='lead6' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 27, 59, 586000, tzinfo=TzInfo(UTC))
+2026-03-27 15:27:59,626 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:27:59,627 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-27 15:27:59,627 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Fernanda Lima — último contato há 56h (Rafael Mendes)' lead_id='lead2' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 27, 59, 585000, tzinfo=TzInfo(UTC))
+2026-03-27 15:27:59,628 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:27:59,628 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-27 15:27:59,628 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='Roberto Nascimento — R$\xa0150.000,00 via Crédito Consignado SP' lead_id='lead1' priority='alta' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 27, 22, 27, 59, 586000, tzinfo=TzInfo(UTC))
+2026-03-27 15:27:59,629 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:27:59,629 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-27 15:27:59,629 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Isabela Rodrigues — último contato há 58h (Rafael Mendes)' lead_id='lead8' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 27, 59, 586000, tzinfo=TzInfo(UTC))
+2026-03-27 15:27:59,630 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:27:59,631 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-27 15:27:59,631 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='Diego Martins — R$\xa025.000,00 via Empréstimo Pessoal MG' lead_id='lead7' priority='baixa' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 27, 22, 27, 59, 586000, tzinfo=TzInfo(UTC))
+2026-03-27 15:27:59,643 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:27:59,643 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-27 15:27:59,643 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Marcos Pereira — último contato há 58h (Juliana Ferreira)' lead_id='lead3' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 27, 59, 586000, tzinfo=TzInfo(UTC))
+2026-03-27 15:28:00,241 - services.notification_history - INFO - Created notification_history with id: 97
+2026-03-27 15:28:00,241 - routers.notification_history - INFO - Notification_history created successfully with id: 97
+2026-03-27 15:28:00,242 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6510s
+2026-03-27 15:28:00,277 - services.notification_history - INFO - Created notification_history with id: 98
+2026-03-27 15:28:00,278 - routers.notification_history - INFO - Notification_history created successfully with id: 98
+2026-03-27 15:28:00,279 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6558s
+2026-03-27 15:28:00,279 - services.notification_history - INFO - Created notification_history with id: 100
+2026-03-27 15:28:00,279 - routers.notification_history - INFO - Notification_history created successfully with id: 100
+2026-03-27 15:28:00,279 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6529s
+2026-03-27 15:28:00,280 - services.notification_history - INFO - Created notification_history with id: 99
+2026-03-27 15:28:00,280 - routers.notification_history - INFO - Notification_history created successfully with id: 99
+2026-03-27 15:28:00,280 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6555s
+2026-03-27 15:28:00,287 - services.notification_history - INFO - Created notification_history with id: 104
+2026-03-27 15:28:00,287 - routers.notification_history - INFO - Notification_history created successfully with id: 104
+2026-03-27 15:28:00,288 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6452s
+2026-03-27 15:28:00,288 - services.notification_history - INFO - Created notification_history with id: 102
+2026-03-27 15:28:00,289 - routers.notification_history - INFO - Notification_history created successfully with id: 102
+2026-03-27 15:28:00,289 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6598s
+2026-03-27 15:28:00,289 - services.notification_history - INFO - Created notification_history with id: 103
+2026-03-27 15:28:00,289 - routers.notification_history - INFO - Notification_history created successfully with id: 103
+2026-03-27 15:28:00,290 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6620s
+2026-03-27 15:28:00,336 - services.notification_history - INFO - Created notification_history with id: 101
+2026-03-27 15:28:00,336 - routers.notification_history - INFO - Notification_history created successfully with id: 101
+2026-03-27 15:28:00,337 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.7067s
+2026-03-27 15:29:02,222 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:29:02,223 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-27 15:29:02,223 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='André Souza — R$\xa0200.000,00 via Financiamento Imobiliário RJ' lead_id='lead5' priority='alta' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 27, 22, 29, 2, 213000, tzinfo=TzInfo(UTC))
+2026-03-27 15:29:02,225 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:29:02,226 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-27 15:29:02,226 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Fernanda Lima — último contato há 56h (Rafael Mendes)' lead_id='lead2' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 29, 2, 214000, tzinfo=TzInfo(UTC))
+2026-03-27 15:29:02,260 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:29:02,261 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0008s
+2026-03-27 15:29:02,262 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='Roberto Nascimento — R$\xa0150.000,00 via Crédito Consignado SP' lead_id='lead1' priority='alta' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 27, 22, 29, 2, 214000, tzinfo=TzInfo(UTC))
+2026-03-27 15:29:02,264 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:29:02,264 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-27 15:29:02,264 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Isabela Rodrigues — último contato há 58h (Rafael Mendes)' lead_id='lead8' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 29, 2, 214000, tzinfo=TzInfo(UTC))
+2026-03-27 15:29:02,265 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:29:02,266 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-27 15:29:02,266 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Patricia Gomes — último contato há 57h (Juliana Ferreira)' lead_id='lead6' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 29, 2, 214000, tzinfo=TzInfo(UTC))
+2026-03-27 15:29:02,267 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:29:02,267 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-27 15:29:02,267 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Marcos Pereira — último contato há 58h (Juliana Ferreira)' lead_id='lead3' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 29, 2, 214000, tzinfo=TzInfo(UTC))
+2026-03-27 15:29:02,268 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:29:02,268 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-27 15:29:02,269 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='Diego Martins — R$\xa025.000,00 via Empréstimo Pessoal MG' lead_id='lead7' priority='baixa' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 27, 22, 29, 2, 215000, tzinfo=TzInfo(UTC))
+2026-03-27 15:29:02,272 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-27 15:29:02,273 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-27 15:29:02,273 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Vanessa Cruz — último contato há 57h (Pedro Almeida)' lead_id='lead10' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 27, 22, 29, 2, 214000, tzinfo=TzInfo(UTC))
+2026-03-27 15:29:02,869 - services.notification_history - INFO - Created notification_history with id: 105
+2026-03-27 15:29:02,869 - routers.notification_history - INFO - Notification_history created successfully with id: 105
+2026-03-27 15:29:02,870 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6471s
+2026-03-27 15:29:02,876 - services.notification_history - INFO - Created notification_history with id: 106
+2026-03-27 15:29:02,876 - routers.notification_history - INFO - Notification_history created successfully with id: 106
+2026-03-27 15:29:02,877 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6516s
+2026-03-27 15:29:02,910 - services.notification_history - INFO - Created notification_history with id: 107
+2026-03-27 15:29:02,910 - routers.notification_history - INFO - Notification_history created successfully with id: 107
+2026-03-27 15:29:02,911 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6451s
+2026-03-27 15:29:02,911 - services.notification_history - INFO - Created notification_history with id: 108
+2026-03-27 15:29:02,911 - routers.notification_history - INFO - Notification_history created successfully with id: 108
+2026-03-27 15:29:02,912 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6513s
+2026-03-27 15:29:02,913 - services.notification_history - INFO - Created notification_history with id: 109
+2026-03-27 15:29:02,913 - routers.notification_history - INFO - Notification_history created successfully with id: 109
+2026-03-27 15:29:02,913 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6490s
+2026-03-27 15:29:02,916 - services.notification_history - INFO - Created notification_history with id: 110
+2026-03-27 15:29:02,916 - routers.notification_history - INFO - Notification_history created successfully with id: 110
+2026-03-27 15:29:02,917 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6446s
+2026-03-27 15:29:02,924 - services.notification_history - INFO - Created notification_history with id: 111
+2026-03-27 15:29:02,925 - routers.notification_history - INFO - Notification_history created successfully with id: 111
+2026-03-27 15:29:02,925 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6581s
+2026-03-27 15:29:02,931 - services.notification_history - INFO - Created notification_history with id: 112
+2026-03-27 15:29:02,931 - routers.notification_history - INFO - Notification_history created successfully with id: 112
+2026-03-27 15:29:02,932 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6643s
+2026-03-27 15:30:35,909 - services.database - DEBUG - [DB_OP] Starting database close
+2026-03-27 15:30:36,413 - core.database - INFO - Database connection closed and engine disposed
+2026-03-27 15:30:36,413 - services.database - INFO - Database connections closed
+2026-03-27 15:30:36,414 - services.database - DEBUG - [DB_OP] Database close completed in 0.5041s

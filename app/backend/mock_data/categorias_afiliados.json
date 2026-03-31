@@ -1,0 +1,50 @@
+[
+    {
+        "ref_id": "cat_contadores",
+        "nome": "Contadores",
+        "emoji": "🧮",
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "cat_imobiliarias",
+        "nome": "Imobiliárias",
+        "emoji": "🏠",
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "cat_advogados",
+        "nome": "Advogados Empresariais",
+        "emoji": "⚖️",
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "cat_despachantes",
+        "nome": "Despachantes",
+        "emoji": "📄",
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "cat_concessionarias",
+        "nome": "Concessionárias",
+        "emoji": "🚗",
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "cat_energia_solar",
+        "nome": "Empresas de Energia Solar",
+        "emoji": "☀️",
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "cat_corretores_imoveis",
+        "nome": "Corretores de Imóveis",
+        "emoji": "🏡",
+        "created_at": "2026-03-20 10:00:00"
+    },
+    {
+        "ref_id": "cat_adm_condominio",
+        "nome": "Administradoras de Condomínio",
+        "emoji": "🏢",
+        "created_at": "2026-03-20 10:00:00"
+    }
+]

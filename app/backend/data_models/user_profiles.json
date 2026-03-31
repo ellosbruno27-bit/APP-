@@ -1,0 +1,56 @@
+{
+    "title": "user_profiles",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID from auth"
+        },
+        "display_name": {
+            "type": "string",
+            "description": "User display name"
+        },
+        "phone": {
+            "type": "string",
+            "description": "Phone number"
+        },
+        "avatar_url": {
+            "type": "string",
+            "description": "Profile photo URL"
+        },
+        "notify_email": {
+            "type": "boolean",
+            "description": "Email notification preference"
+        },
+        "notify_sms": {
+            "type": "boolean",
+            "description": "SMS notification preference"
+        },
+        "notify_whatsapp": {
+            "type": "boolean",
+            "description": "WhatsApp notification preference"
+        },
+        "notify_push": {
+            "type": "boolean",
+            "description": "Push notification preference"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        },
+        "updated_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Last update timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "user_id"
+    ]
+}

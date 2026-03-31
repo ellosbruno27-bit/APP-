@@ -1,0 +1,273 @@
+2026-03-29 18:44:42,656 - main - INFO - === Logging system initialized ===
+2026-03-29 18:44:42,656 - main - INFO - Log file: logs/app_20260329_184442.log
+2026-03-29 18:44:42,656 - main - INFO - Log level: INFO
+2026-03-29 18:44:42,657 - main - INFO - Timestamp: 20260329_184442
+2026-03-29 18:44:43,376 - main - INFO - Included router: routers.aihub.router
+2026-03-29 18:44:43,399 - main - INFO - Included router: routers.auth.router
+2026-03-29 18:44:43,401 - main - INFO - Included router: routers.health.router
+2026-03-29 18:44:43,446 - main - INFO - Included router: routers.notification_history.router
+2026-03-29 18:44:43,475 - main - INFO - Included router: routers.settings.router
+2026-03-29 18:44:43,532 - main - INFO - Included router: routers.storage.router
+2026-03-29 18:44:43,543 - main - INFO - Included router: routers.user.router
+2026-03-29 18:44:43,731 - main - INFO - Included router: routers.user_profiles.router
+2026-03-29 18:44:43,732 - main - INFO - === Application startup initiated ===
+2026-03-29 18:44:43,732 - services.database - INFO - Ignore creating tables
+2026-03-29 18:44:43,732 - services.mock_data - INFO - Ignore initialize data
+2026-03-29 18:44:43,732 - services.auth - INFO - Ignore initialize admin
+2026-03-29 18:44:43,733 - main - INFO - === Application startup completed successfully ===
+2026-03-29 18:44:48,173 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:44:48,562 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:45:20,388 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:45:31,686 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:46:35,643 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:49:21,901 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:52:12,556 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:57:22,083 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:58:03,256 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:59:23,175 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 19:00:23,311 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 19:07:44,050 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 19:08:29,541 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 19:10:30,319 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 19:10:40,060 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 19:11:14,918 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 19:11:31,388 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 19:17:07,511 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:07,512 - core.database - WARNING - Database session maker not available, attempting lazy initialization...
+2026-03-29 19:17:07,512 - core.database - WARNING - Database not initialized, attempting lazy initialization...
+2026-03-29 19:17:07,512 - core.database - INFO - Starting database initialization...
+2026-03-29 19:17:07,512 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-03-29 19:17:07,512 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-03-29 19:17:07,513 - core.database - INFO - Creating async database engine...
+2026-03-29 19:17:07,514 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-03-29 19:17:07,561 - core.database - INFO - Database engine created successfully
+2026-03-29 19:17:07,561 - core.database - INFO - Creating async session maker...
+2026-03-29 19:17:07,561 - core.database - INFO - Async session maker created successfully
+2026-03-29 19:17:07,562 - core.database - INFO - Database connection initialized successfully
+2026-03-29 19:17:07,562 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-03-29 19:17:07,562 - core.database - INFO - 🔧 Starting table creation...
+2026-03-29 19:17:09,537 - core.database - INFO - Tables initialized successfully
+2026-03-29 19:17:09,537 - core.database - DEBUG - [DB_OP] Create tables completed in 1.9756s
+2026-03-29 19:17:09,597 - core.database - INFO - Lazy database initialization completed successfully
+2026-03-29 19:17:09,598 - core.database - DEBUG - [DB_OP] Database session created successfully in 2.0865s
+2026-03-29 19:17:10,234 - routers.auth - DEBUG - [get_dynamic_backend_url] mgx-external-domain=None, x-forwarded-host=mbay3d-89c88c480f2d4626bcae9e18a7da5624-preview.app.atoms.dev, host=127.0.0.1:8002, scheme=https, dynamic_url=https://mbay3d-89c88c480f2d4626bcae9e18a7da5624-preview.app.atoms.dev
+2026-03-29 19:17:10,235 - routers.auth - INFO - [login] Starting OIDC flow with redirect_uri=https://mbay3d-89c88c480f2d4626bcae9e18a7da5624-preview.app.atoms.dev/api/v1/auth/callback
+2026-03-29 19:17:10,235 - core.config - DEBUG - Read dynamic attribute oidc_client_id from environment variable OIDC_CLIENT_ID
+2026-03-29 19:17:10,235 - core.config - DEBUG - Read dynamic attribute oidc_scope from environment variable OIDC_SCOPE
+2026-03-29 19:17:10,236 - core.config - DEBUG - Read dynamic attribute oidc_issuer_url from environment variable OIDC_ISSUER_URL
+2026-03-29 19:17:10,236 - core.database - DEBUG - [DB_OP] Database session cleanup after 2.7248s
+2026-03-29 19:17:15,175 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:15,176 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0005s
+2026-03-29 19:17:15,177 - routers.auth - DEBUG - [get_dynamic_backend_url] mgx-external-domain=None, x-forwarded-host=mbay3d-89c88c480f2d4626bcae9e18a7da5624-preview.app.atoms.dev, host=127.0.0.1:8002, scheme=https, dynamic_url=https://mbay3d-89c88c480f2d4626bcae9e18a7da5624-preview.app.atoms.dev
+2026-03-29 19:17:15,782 - routers.auth - INFO - [callback] Exchanging code for tokens with redirect_uri=https://mbay3d-89c88c480f2d4626bcae9e18a7da5624-preview.app.atoms.dev/api/v1/auth/callback
+2026-03-29 19:17:15,783 - core.config - DEBUG - Read dynamic attribute oidc_client_secret from environment variable OIDC_CLIENT_SECRET
+2026-03-29 19:17:17,472 - httpcore.connection - DEBUG - connect_tcp.started host='auth.atoms.dev' port=443 local_address=None timeout=5.0 socket_options=None
+2026-03-29 19:17:17,481 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7fbbd6fc12a0>
+2026-03-29 19:17:17,482 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fbbd6f2b240> server_hostname='auth.atoms.dev' timeout=5.0
+2026-03-29 19:17:17,491 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7fbbd6fc1000>
+2026-03-29 19:17:17,491 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-29 19:17:17,492 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-03-29 19:17:17,492 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-29 19:17:17,492 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-03-29 19:17:17,493 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-29 19:17:17,587 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 30 Mar 2026 02:17:17 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'x-response-time', b'0.057s'), (b'x-request-id', b'CI5IYbpDXqvlony2BflAyXThTC3zmxLjGZpneNlNk_Q'), (b'cf-cache-status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9e439dfc59292f74-LAX')])
+2026-03-29 19:17:17,588 - httpx - INFO - HTTP Request: POST https://auth.atoms.dev/api/v1/oidc/token "HTTP/1.1 200 OK"
+2026-03-29 19:17:17,589 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-29 19:17:17,590 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-03-29 19:17:17,590 - httpcore.http11 - DEBUG - response_closed.started
+2026-03-29 19:17:17,591 - httpcore.http11 - DEBUG - response_closed.complete
+2026-03-29 19:17:17,591 - httpcore.connection - DEBUG - close.started
+2026-03-29 19:17:17,591 - httpcore.connection - DEBUG - close.complete
+2026-03-29 19:17:17,631 - core.auth - INFO - Fetching JWKS from: https://auth.atoms.dev/api/v1/oidc/.well-known/jwks.json
+2026-03-29 19:17:17,632 - httpcore.connection - DEBUG - connect_tcp.started host='auth.atoms.dev' port=443 local_address=None timeout=60.0 socket_options=None
+2026-03-29 19:17:17,642 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7fbbd6fc2c80>
+2026-03-29 19:17:17,643 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7fbbdda1fd40> server_hostname='auth.atoms.dev' timeout=60.0
+2026-03-29 19:17:17,653 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7fbbd6fc2a10>
+2026-03-29 19:17:17,654 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-29 19:17:17,655 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-03-29 19:17:17,655 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-29 19:17:17,655 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-03-29 19:17:17,655 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-29 19:17:17,695 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 30 Mar 2026 02:17:17 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'cache-control', b'public, max-age=3600'), (b'x-response-time', b'0.001s'), (b'x-request-id', b'8164ce063fd93f9716bb3e3fa2efa405'), (b'cf-cache-status', b'DYNAMIC'), (b'Content-Encoding', b'gzip'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9e439dfd5e032a94-LAX')])
+2026-03-29 19:17:17,696 - httpx - INFO - HTTP Request: GET https://auth.atoms.dev/api/v1/oidc/.well-known/jwks.json "HTTP/1.1 200 OK"
+2026-03-29 19:17:17,696 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-29 19:17:17,697 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-03-29 19:17:17,697 - httpcore.http11 - DEBUG - response_closed.started
+2026-03-29 19:17:17,698 - httpcore.http11 - DEBUG - response_closed.complete
+2026-03-29 19:17:17,698 - core.auth - INFO - Successfully fetched JWKS with 1 keys
+2026-03-29 19:17:17,698 - httpcore.connection - DEBUG - close.started
+2026-03-29 19:17:17,699 - httpcore.connection - DEBUG - close.complete
+2026-03-29 19:17:18,067 - core.auth - INFO - ID token successfully validated for user hash: 7f624612
+2026-03-29 19:17:18,068 - services.auth - DEBUG - [DB_OP] Starting get_or_create_user - platform_sub: 1058562
+2026-03-29 19:17:18,493 - services.auth - DEBUG - [DB_OP] User lookup completed in 0.4250s - found: True
+2026-03-29 19:17:18,493 - services.auth - DEBUG - [DB_OP] Starting user commit/refresh
+2026-03-29 19:17:19,004 - services.auth - DEBUG - [DB_OP] User commit/refresh completed in 0.5105s
+2026-03-29 19:17:19,004 - core.config - DEBUG - Read dynamic attribute jwt_expire_minutes from environment variable JWT_EXPIRE_MINUTES
+2026-03-29 19:17:19,004 - core.config - DEBUG - Read dynamic attribute jwt_secret_key from environment variable JWT_SECRET_KEY
+2026-03-29 19:17:19,004 - core.config - DEBUG - Read dynamic attribute jwt_algorithm from environment variable JWT_ALGORITHM
+2026-03-29 19:17:19,005 - core.auth - DEBUG - Authentication token created for user hash: 7f624612
+2026-03-29 19:17:19,005 - routers.auth - INFO - [callback] OIDC callback successful, redirecting to https://mbay3d-89c88c480f2d4626bcae9e18a7da5624-preview.app.atoms.dev/auth/callback?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMDU4NTYyIiwiZW1haWwiOiJlbGxvc2JydW5vMjdAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwibmFtZSI6ImVsbG9zYnJ1bm8yNyIsImxhc3RfbG9naW4iOiIyMDI2LTAzLTMwVDAyOjE3OjE4LjQ5Mzc1NSswMDowMCIsImV4cCI6MTc3NzQyOTAzOSwiaWF0IjoxNzc0ODM3MDM5LCJuYmYiOjE3NzQ4MzcwMzl9.ToYtbvaIOwOdnGFqGc1LTPE0Ouoc8WyRRwEbY9fgRi4&expires_at=1777429039&token_type=Bearer
+2026-03-29 19:17:19,006 - core.database - DEBUG - [DB_OP] Database session cleanup after 3.8304s
+2026-03-29 19:17:22,905 - core.auth - DEBUG - Authentication token validated for user hash: 7f624612
+2026-03-29 19:17:23,211 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:23,211 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-29 19:17:23,212 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='Diego Martins — R$\xa0120.000,00 via Home Equity' lead_id='lead7' priority='baixa' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 30, 2, 17, 23, 58000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:23,213 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:23,214 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-29 19:17:23,214 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Patricia Gomes — último contato há 109h (Juliana Ferreira)' lead_id='lead6' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 17, 23, 58000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:23,216 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:23,216 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-29 19:17:23,216 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Fernanda Lima — último contato há 108h (Rafael Mendes)' lead_id='lead2' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 17, 23, 58000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:23,220 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:23,220 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-29 19:17:23,220 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Isabela Rodrigues — último contato há 110h (Rafael Mendes)' lead_id='lead8' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 17, 23, 58000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:23,222 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:23,222 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0001s
+2026-03-29 19:17:23,222 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Marcos Pereira — último contato há 110h (Juliana Ferreira)' lead_id='lead3' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 17, 23, 58000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:23,223 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:23,223 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0001s
+2026-03-29 19:17:23,224 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='André Souza — R$\xa0500.000,00 via Empréstimo Condomínio' lead_id='lead5' priority='alta' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 30, 2, 17, 23, 58000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:23,245 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:23,245 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0006s
+2026-03-29 19:17:23,246 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='Roberto Nascimento — R$\xa0350.000,00 via Home Equity' lead_id='lead1' priority='alta' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 30, 2, 17, 23, 58000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:23,302 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:23,302 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-29 19:17:23,303 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Vanessa Cruz — último contato há 109h (Pedro Almeida)' lead_id='lead10' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 17, 23, 58000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:24,144 - services.notification_history - INFO - Created notification_history with id: 1296
+2026-03-29 19:17:24,144 - routers.notification_history - INFO - Notification_history created successfully with id: 1296
+2026-03-29 19:17:24,145 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.9337s
+2026-03-29 19:17:24,375 - services.notification_history - INFO - Created notification_history with id: 1297
+2026-03-29 19:17:24,375 - routers.notification_history - INFO - Notification_history created successfully with id: 1297
+2026-03-29 19:17:24,376 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.1602s
+2026-03-29 19:17:24,383 - services.notification_history - INFO - Created notification_history with id: 1298
+2026-03-29 19:17:24,383 - routers.notification_history - INFO - Notification_history created successfully with id: 1298
+2026-03-29 19:17:24,384 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.1643s
+2026-03-29 19:17:24,385 - services.notification_history - INFO - Created notification_history with id: 1299
+2026-03-29 19:17:24,385 - routers.notification_history - INFO - Notification_history created successfully with id: 1299
+2026-03-29 19:17:24,385 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.1620s
+2026-03-29 19:17:24,394 - services.notification_history - INFO - Created notification_history with id: 1300
+2026-03-29 19:17:24,394 - routers.notification_history - INFO - Notification_history created successfully with id: 1300
+2026-03-29 19:17:24,395 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.1814s
+2026-03-29 19:17:24,395 - services.notification_history - INFO - Created notification_history with id: 1301
+2026-03-29 19:17:24,396 - routers.notification_history - INFO - Notification_history created successfully with id: 1301
+2026-03-29 19:17:24,396 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.1743s
+2026-03-29 19:17:24,433 - services.notification_history - INFO - Created notification_history with id: 1302
+2026-03-29 19:17:24,433 - routers.notification_history - INFO - Notification_history created successfully with id: 1302
+2026-03-29 19:17:24,434 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.1318s
+2026-03-29 19:17:24,458 - services.notification_history - INFO - Created notification_history with id: 1303
+2026-03-29 19:17:24,458 - routers.notification_history - INFO - Notification_history created successfully with id: 1303
+2026-03-29 19:17:24,459 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.2138s
+2026-03-29 19:17:44,747 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:44,747 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0005s
+2026-03-29 19:17:44,748 - routers.auth - DEBUG - [get_dynamic_backend_url] mgx-external-domain=None, x-forwarded-host=mbay3d-89c88c480f2d4626bcae9e18a7da5624-preview.app.atoms.dev, host=127.0.0.1:8002, scheme=https, dynamic_url=https://mbay3d-89c88c480f2d4626bcae9e18a7da5624-preview.app.atoms.dev
+2026-03-29 19:17:45,109 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3619s
+2026-03-29 19:17:52,130 - core.auth - DEBUG - Authentication token validated for user hash: 7f624612
+2026-03-29 19:17:52,369 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:52,370 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-03-29 19:17:52,370 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Fernanda Lima — último contato há 108h (Rafael Mendes)' lead_id='lead2' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 17, 52, 269000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:52,374 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:52,374 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-29 19:17:52,375 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Isabela Rodrigues — último contato há 110h (Rafael Mendes)' lead_id='lead8' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 17, 52, 269000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:52,376 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:52,376 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-29 19:17:52,376 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='Roberto Nascimento — R$\xa0350.000,00 via Home Equity' lead_id='lead1' priority='alta' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 30, 2, 17, 52, 269000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:52,378 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:52,378 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-29 19:17:52,378 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Marcos Pereira — último contato há 110h (Juliana Ferreira)' lead_id='lead3' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 17, 52, 269000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:52,404 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:52,405 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0007s
+2026-03-29 19:17:52,406 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Patricia Gomes — último contato há 109h (Juliana Ferreira)' lead_id='lead6' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 17, 52, 269000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:52,425 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:52,426 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0007s
+2026-03-29 19:17:52,426 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Vanessa Cruz — último contato há 109h (Pedro Almeida)' lead_id='lead10' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 17, 52, 269000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:52,428 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:52,428 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-29 19:17:52,428 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='Diego Martins — R$\xa0120.000,00 via Home Equity' lead_id='lead7' priority='baixa' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 30, 2, 17, 52, 269000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:52,438 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:17:52,438 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0006s
+2026-03-29 19:17:52,439 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='André Souza — R$\xa0500.000,00 via Empréstimo Condomínio' lead_id='lead5' priority='alta' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 30, 2, 17, 52, 269000, tzinfo=TzInfo(UTC))
+2026-03-29 19:17:53,012 - services.notification_history - INFO - Created notification_history with id: 1306
+2026-03-29 19:17:53,013 - routers.notification_history - INFO - Notification_history created successfully with id: 1306
+2026-03-29 19:17:53,013 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6373s
+2026-03-29 19:17:53,014 - services.notification_history - INFO - Created notification_history with id: 1305
+2026-03-29 19:17:53,014 - routers.notification_history - INFO - Notification_history created successfully with id: 1305
+2026-03-29 19:17:53,014 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6400s
+2026-03-29 19:17:53,015 - services.notification_history - INFO - Created notification_history with id: 1304
+2026-03-29 19:17:53,015 - routers.notification_history - INFO - Notification_history created successfully with id: 1304
+2026-03-29 19:17:53,015 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6454s
+2026-03-29 19:17:53,025 - services.notification_history - INFO - Created notification_history with id: 1307
+2026-03-29 19:17:53,025 - routers.notification_history - INFO - Notification_history created successfully with id: 1307
+2026-03-29 19:17:53,025 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6476s
+2026-03-29 19:17:53,052 - services.notification_history - INFO - Created notification_history with id: 1308
+2026-03-29 19:17:53,053 - routers.notification_history - INFO - Notification_history created successfully with id: 1308
+2026-03-29 19:17:53,053 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6491s
+2026-03-29 19:17:53,074 - services.notification_history - INFO - Created notification_history with id: 1309
+2026-03-29 19:17:53,074 - routers.notification_history - INFO - Notification_history created successfully with id: 1309
+2026-03-29 19:17:53,074 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6495s
+2026-03-29 19:17:53,089 - services.notification_history - INFO - Created notification_history with id: 1311
+2026-03-29 19:17:53,089 - routers.notification_history - INFO - Notification_history created successfully with id: 1311
+2026-03-29 19:17:53,089 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6513s
+2026-03-29 19:17:53,092 - services.notification_history - INFO - Created notification_history with id: 1310
+2026-03-29 19:17:53,092 - routers.notification_history - INFO - Notification_history created successfully with id: 1310
+2026-03-29 19:17:53,092 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6641s
+2026-03-29 19:18:42,937 - core.auth - DEBUG - Authentication token validated for user hash: 7f624612
+2026-03-29 19:18:43,185 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:18:43,185 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-29 19:18:43,185 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Marcos Pereira — último contato há 110h (Juliana Ferreira)' lead_id='lead3' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 18, 43, 72000, tzinfo=TzInfo(UTC))
+2026-03-29 19:18:43,186 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:18:43,187 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-29 19:18:43,187 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='André Souza — R$\xa0500.000,00 via Empréstimo Condomínio' lead_id='lead5' priority='alta' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 30, 2, 18, 43, 71000, tzinfo=TzInfo(UTC))
+2026-03-29 19:18:43,188 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:18:43,188 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-29 19:18:43,188 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='Diego Martins — R$\xa0120.000,00 via Home Equity' lead_id='lead7' priority='baixa' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 30, 2, 18, 43, 72000, tzinfo=TzInfo(UTC))
+2026-03-29 19:18:43,189 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:18:43,190 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-29 19:18:43,190 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Isabela Rodrigues — último contato há 110h (Rafael Mendes)' lead_id='lead8' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 18, 43, 72000, tzinfo=TzInfo(UTC))
+2026-03-29 19:18:43,190 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:18:43,191 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-29 19:18:43,191 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Patricia Gomes — último contato há 109h (Juliana Ferreira)' lead_id='lead6' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 18, 43, 72000, tzinfo=TzInfo(UTC))
+2026-03-29 19:18:43,192 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:18:43,192 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-29 19:18:43,192 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Fernanda Lima — último contato há 108h (Rafael Mendes)' lead_id='lead2' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 18, 43, 71000, tzinfo=TzInfo(UTC))
+2026-03-29 19:18:43,193 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:18:43,193 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-29 19:18:43,193 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='sem_atendimento' title='Lead sem atendimento há +24h' message='Vanessa Cruz — último contato há 109h (Pedro Almeida)' lead_id='lead10' priority='alta' sound_played=True silenced_by_dnd=False sound_type='sirene' created_at=datetime.datetime(2026, 3, 30, 2, 18, 43, 72000, tzinfo=TzInfo(UTC))
+2026-03-29 19:18:43,194 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:18:43,194 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-03-29 19:18:43,195 - routers.notification_history - DEBUG - Creating new notification_history with data: notification_type='novo_lead' title='Novo lead recebido' message='Roberto Nascimento — R$\xa0350.000,00 via Home Equity' lead_id='lead1' priority='alta' sound_played=True silenced_by_dnd=False sound_type='apito' created_at=datetime.datetime(2026, 3, 30, 2, 18, 43, 71000, tzinfo=TzInfo(UTC))
+2026-03-29 19:18:43,829 - services.notification_history - INFO - Created notification_history with id: 1312
+2026-03-29 19:18:43,830 - routers.notification_history - INFO - Notification_history created successfully with id: 1312
+2026-03-29 19:18:43,830 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6438s
+2026-03-29 19:18:43,831 - services.notification_history - INFO - Created notification_history with id: 1313
+2026-03-29 19:18:43,831 - routers.notification_history - INFO - Notification_history created successfully with id: 1313
+2026-03-29 19:18:43,832 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6470s
+2026-03-29 19:18:43,832 - services.notification_history - INFO - Created notification_history with id: 1315
+2026-03-29 19:18:43,832 - routers.notification_history - INFO - Notification_history created successfully with id: 1315
+2026-03-29 19:18:43,833 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6433s
+2026-03-29 19:18:43,833 - services.notification_history - INFO - Created notification_history with id: 1316
+2026-03-29 19:18:43,833 - routers.notification_history - INFO - Notification_history created successfully with id: 1316
+2026-03-29 19:18:43,834 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6431s
+2026-03-29 19:18:43,834 - services.notification_history - INFO - Created notification_history with id: 1314
+2026-03-29 19:18:43,834 - routers.notification_history - INFO - Notification_history created successfully with id: 1314
+2026-03-29 19:18:43,834 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6466s
+2026-03-29 19:18:43,835 - services.notification_history - INFO - Created notification_history with id: 1317
+2026-03-29 19:18:43,835 - routers.notification_history - INFO - Notification_history created successfully with id: 1317
+2026-03-29 19:18:43,835 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6437s
+2026-03-29 19:18:43,847 - services.notification_history - INFO - Created notification_history with id: 1318
+2026-03-29 19:18:43,847 - routers.notification_history - INFO - Notification_history created successfully with id: 1318
+2026-03-29 19:18:43,847 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6541s
+2026-03-29 19:18:43,857 - services.notification_history - INFO - Created notification_history with id: 1319
+2026-03-29 19:18:43,858 - routers.notification_history - INFO - Notification_history created successfully with id: 1319
+2026-03-29 19:18:43,858 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.6640s
+2026-03-29 19:18:58,040 - core.auth - DEBUG - Authentication token validated for user hash: 7f624612
+2026-03-29 19:18:58,475 - core.auth - DEBUG - Authentication token validated for user hash: 7f624612
+2026-03-29 19:18:58,475 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-03-29 19:18:58,476 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-03-29 19:18:58,476 - routers.user_profiles - DEBUG - Querying user_profiless: query={}, sort=None, skip=0, limit=1, fields=None
+2026-03-29 19:18:58,954 - routers.user_profiles - DEBUG - Found 0 user_profiless
+2026-03-29 19:18:58,955 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4798s
+2026-03-29 19:32:15,818 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 19:34:34,812 - services.database - DEBUG - [DB_OP] Starting database close
+2026-03-29 19:34:34,814 - core.database - INFO - Database connection closed and engine disposed
+2026-03-29 19:34:34,814 - services.database - INFO - Database connections closed
+2026-03-29 19:34:34,815 - services.database - DEBUG - [DB_OP] Database close completed in 0.0028s

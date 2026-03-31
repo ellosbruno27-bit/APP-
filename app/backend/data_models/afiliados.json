@@ -1,0 +1,47 @@
+{
+    "title": "afiliados",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "nome": {
+            "type": "string",
+            "description": "Affiliate name"
+        },
+        "telefone": {
+            "type": "string",
+            "description": "Phone number"
+        },
+        "email": {
+            "type": "string",
+            "description": "Email address"
+        },
+        "categoria_id": {
+            "type": "string",
+            "description": "Category reference ID"
+        },
+        "ativo": {
+            "type": "boolean",
+            "description": "Active status"
+        },
+        "codigo_acesso": {
+            "type": "string",
+            "description": "Access code"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "nome",
+        "telefone",
+        "email",
+        "categoria_id",
+        "ativo"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "title": "notification_history",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "notification_type": {
+            "type": "string",
+            "description": "Type: novo_lead, sem_atendimento, follow_up"
+        },
+        "title": {
+            "type": "string",
+            "description": "Notification title"
+        },
+        "message": {
+            "type": "string",
+            "description": "Notification message body"
+        },
+        "lead_id": {
+            "type": "string",
+            "description": "Related lead ID"
+        },
+        "priority": {
+            "type": "string",
+            "description": "Priority: alta, media, baixa"
+        },
+        "sound_played": {
+            "type": "boolean",
+            "description": "Whether the sound was played"
+        },
+        "silenced_by_dnd": {
+            "type": "boolean",
+            "description": "Whether it was silenced by DND mode"
+        },
+        "sound_type": {
+            "type": "string",
+            "description": "Sound type used: apito, sirene, campainha, buzina"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When the notification was created"
+        }
+    },
+    "required": [
+        "id",
+        "notification_type",
+        "title",
+        "message",
+        "lead_id",
+        "priority",
+        "sound_played",
+        "silenced_by_dnd",
+        "sound_type",
+        "created_at"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "title": "categorias_afiliados",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "ref_id": {
+            "type": "string",
+            "description": "Reference ID like cat_contadores"
+        },
+        "nome": {
+            "type": "string",
+            "description": "Category name"
+        },
+        "emoji": {
+            "type": "string",
+            "description": "Category emoji"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "ref_id",
+        "nome",
+        "emoji"
+    ]
+}

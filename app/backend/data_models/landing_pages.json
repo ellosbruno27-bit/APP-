@@ -1,0 +1,70 @@
+{
+    "title": "landing_pages",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "ref_id": {
+            "type": "string",
+            "description": "Reference ID like lp1, lp2"
+        },
+        "nome": {
+            "type": "string",
+            "description": "Landing page name"
+        },
+        "dominio": {
+            "type": "string",
+            "description": "Domain"
+        },
+        "proprietario": {
+            "type": "string",
+            "description": "Owner name"
+        },
+        "webhook_url": {
+            "type": "string",
+            "description": "Webhook URL"
+        },
+        "template_mensagem": {
+            "type": "string",
+            "description": "Message template"
+        },
+        "ativa": {
+            "type": "boolean",
+            "description": "Active status"
+        },
+        "cor": {
+            "type": "string",
+            "description": "Badge color hex"
+        },
+        "leads_total": {
+            "type": "integer",
+            "description": "Total leads count"
+        },
+        "conversoes": {
+            "type": "integer",
+            "description": "Conversions count"
+        },
+        "categoria": {
+            "type": "string",
+            "description": "Category slug"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "ref_id",
+        "nome",
+        "dominio",
+        "proprietario",
+        "webhook_url",
+        "template_mensagem",
+        "ativa",
+        "cor"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "title": "bancos",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "ref_id": {
+            "type": "string",
+            "description": "Reference ID like bank1"
+        },
+        "nome": {
+            "type": "string",
+            "description": "Bank name"
+        },
+        "cor": {
+            "type": "string",
+            "description": "Accent color hex"
+        },
+        "ativo": {
+            "type": "boolean",
+            "description": "Active status"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "ref_id",
+        "nome",
+        "cor",
+        "ativo"
+    ]
+}

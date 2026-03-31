@@ -1,0 +1,55 @@
+{
+    "title": "corretores",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "ref_id": {
+            "type": "string",
+            "description": "Reference ID like c1, c2"
+        },
+        "nome": {
+            "type": "string",
+            "description": "Broker name"
+        },
+        "telefone": {
+            "type": "string",
+            "description": "Phone number"
+        },
+        "email": {
+            "type": "string",
+            "description": "Email address"
+        },
+        "ativo": {
+            "type": "boolean",
+            "description": "Active status"
+        },
+        "leads_atribuidos": {
+            "type": "integer",
+            "description": "Number of assigned leads"
+        },
+        "landing_pages_json": {
+            "type": "string",
+            "description": "JSON array of landing page IDs"
+        },
+        "codigo_acesso": {
+            "type": "string",
+            "description": "Access code for training portal"
+        },
+        "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation timestamp"
+        }
+    },
+    "required": [
+        "id",
+        "ref_id",
+        "nome",
+        "telefone",
+        "email",
+        "ativo"
+    ]
+}

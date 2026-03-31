@@ -1,0 +1,25 @@
+2026-03-29 18:39:43,495 - main - INFO - === Logging system initialized ===
+2026-03-29 18:39:43,496 - main - INFO - Log file: logs/app_20260329_183943.log
+2026-03-29 18:39:43,496 - main - INFO - Log level: INFO
+2026-03-29 18:39:43,496 - main - INFO - Timestamp: 20260329_183943
+2026-03-29 18:39:59,930 - main - INFO - Included router: routers.aihub.router
+2026-03-29 18:40:00,112 - main - INFO - Included router: routers.auth.router
+2026-03-29 18:40:00,130 - main - INFO - Included router: routers.health.router
+2026-03-29 18:40:00,232 - main - INFO - Included router: routers.notification_history.router
+2026-03-29 18:40:00,273 - main - INFO - Included router: routers.settings.router
+2026-03-29 18:40:00,347 - main - INFO - Included router: routers.storage.router
+2026-03-29 18:40:00,376 - main - INFO - Included router: routers.user.router
+2026-03-29 18:40:00,377 - main - INFO - === Application startup initiated ===
+2026-03-29 18:40:00,377 - services.database - INFO - Ignore creating tables
+2026-03-29 18:40:00,377 - services.mock_data - INFO - Ignore initialize data
+2026-03-29 18:40:00,377 - services.auth - INFO - Ignore initialize admin
+2026-03-29 18:40:00,377 - main - INFO - === Application startup completed successfully ===
+2026-03-29 18:40:07,019 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:43:14,210 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:43:15,015 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:43:50,070 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:43:50,314 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:44:09,868 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-03-29 18:44:10,660 - services.database - DEBUG - [DB_OP] Starting database close
+2026-03-29 18:44:10,660 - services.database - INFO - Database connections closed
+2026-03-29 18:44:10,660 - services.database - DEBUG - [DB_OP] Database close completed in 0.0003s
