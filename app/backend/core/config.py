@@ -1,7 +1,8 @@
 import logging
 import os
-from typing import Any
+from typing import Any, Optional
 
+from pydantic import model_validator
 from pydantic_settings import BaseSettings
 
 logger = logging.getLogger(__name__)
@@ -13,11 +14,9 @@ class Settings(BaseSettings):
     debug: bool = False
     version: str = "1.0.0"
 
-    # Database
-    database_url: str
-
-    class Config:
-        env_file = ".env"
+    # Database — optional here so Pydantic doesn't reject a missing value
+    # before our validator can emit a helpful message.
+    database_url: Optional[str] = None
 
     # Server
     host: str = "0.0.0.0"
@@ -27,6 +26,33 @@ class Settings(BaseSettings):
     is_lambda: bool = False
     lambda_function_name: str = "fastapi-backend"
     aws_region: str = "us-east-1"
+
+    @model_validator(mode="after")
+    def _validate_database_url(self) -> "Settings":
+        """Ensure DATABASE_URL is present and has been expanded by the runtime.
+
+        Railway expands reference variables (e.g. ``${{Postgres.DATABASE_URL}}``)
+        at container start.  If the value is still absent or empty at this point
+        the variable was never resolved, and we surface a clear error rather than
+        letting SQLAlchemy fail with a cryptic message later.
+        """
+        # Re-read directly from the environment so we pick up the value even
+        # when Pydantic's own env-loading ran before Railway finished expanding
+        # the reference variable.
+        raw = os.environ.get("DATABASE_URL", "").strip()
+
+        if raw:
+            # Prefer the live env value (handles late expansion edge-cases)
+            self.database_url = raw
+        elif not self.database_url:
+            raise ValueError(
+                "DATABASE_URL environment variable is required but was not found. "
+                "If you are using a Railway Postgres service, make sure the variable "
+                "reference (${{Postgres.DATABASE_URL}}) is set in your service's "
+                "environment and that the Postgres service is deployed and healthy."
+            )
+
+        return self
 
     @property
     def backend_url(self) -> str:
@@ -42,6 +68,7 @@ class Settings(BaseSettings):
             return os.environ.get("PYTHON_BACKEND_URL", f"http://{display_host}:{self.port}")
 
     class Config:
+        env_file = ".env"
         case_sensitive = False
         extra = "ignore"
 
