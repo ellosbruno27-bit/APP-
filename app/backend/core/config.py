@@ -13,6 +13,12 @@ class Settings(BaseSettings):
     debug: bool = False
     version: str = "1.0.0"
 
+    # Database
+    database_url: str
+
+    class Config:
+        env_file = ".env"
+
     # Server
     host: str = "0.0.0.0"
     port: int = 8000
